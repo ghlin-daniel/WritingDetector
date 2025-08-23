@@ -16,7 +16,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.ui.Modifier
-import com.guanhaolin.writingdetector.ui.theme.WritingdetectorTheme
+import com.guanhaolin.writingdetector.ui.theme.WritingDetectorTheme
 
 class MainActivity : ComponentActivity() {
     @OptIn(ExperimentalMaterial3Api::class)
@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            WritingdetectorTheme {
+            WritingDetectorTheme {
                 Scaffold(
                     modifier = Modifier.fillMaxSize(),
                     topBar = {
