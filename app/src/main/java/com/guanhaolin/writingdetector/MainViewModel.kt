@@ -29,4 +29,8 @@ class MainViewModel @Inject constructor() : ViewModel() {
             currentPath = emptyList()
         )
     }
+
+    fun clear() {
+        _uiState.value = DrawingUiState()
+    }
 }
